@@ -1,0 +1,62 @@
+@font-face {
+    font-family: myfont;
+    src: url(earthorbiterxtrabold.ttf);
+}
+@font-face {
+    font-family: myfont2;
+    src: url(earthorbiterhalf.ttf);
+}
+
+body {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: myFont;
+    background-color: #0f090f;
+    cursor: pointer;
+
+    #hero {
+        background-image: url(images/deepspace.gif);
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-bottom: 560px;
+    }
+}
+img {
+    width: 150px;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(218, 216, 214);
+    text-shadow: -5px 3px 5px rgb(38, 7, 133);
+}
+
+h3 {
+    text-shadow: -2px 2px 1.5px rgb(172, 172, 173);
+}
+
+.exploration {
+    text-decoration: underline;
+}
+
+.btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgb(199, 197, 197);
+    border: none;
+    font-family: myfont2;
+    font-size: large;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px rgb(38, 7, 133);
+    transition: ease-in-out 250ms;
+}
+
+.btn:hover {
+    background-color: rgb(32, 15, 83);
+    color: rgb(172, 172, 173);
+}
